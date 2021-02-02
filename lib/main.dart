@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_doc_jp_layout_tutorial/stack_view.dart';
+import 'package:flutter_doc_jp_layout_tutorial/card_view.dart';
 
 void main() {
   debugPaintSizeEnabled = true;
-  runApp(StackWidget());
+  runApp(CardWidget());
 }
 
 class MyApp extends StatelessWidget {
