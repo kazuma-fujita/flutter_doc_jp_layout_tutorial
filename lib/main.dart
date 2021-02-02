@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_doc_jp_layout_tutorial/list_view_builder_scroll_horizontal.dart';
+
+import 'grid_view.dart';
 
 void main() {
   debugPaintSizeEnabled = true;
-  runApp(ListViewBuilderScrollHorizontal());
+  runApp(GridViewWidget());
 }
 
 class MyApp extends StatelessWidget {
