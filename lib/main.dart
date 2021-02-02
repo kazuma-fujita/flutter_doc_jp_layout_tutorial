@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-
-import 'drop_down_button.dart';
+import 'package:flutter_doc_jp_layout_tutorial/text_form_field.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(DropDownButtonWidget());
+  runApp(TextFormFieldWidget());
 }
 
 class MyApp extends StatelessWidget {
