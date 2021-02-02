@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'grid_view.dart';
+import 'grid_view_builder.dart';
 
 void main() {
   debugPaintSizeEnabled = true;
-  runApp(GridViewWidget());
+  runApp(GridViewBuilderWidget());
 }
 
 class MyApp extends StatelessWidget {
