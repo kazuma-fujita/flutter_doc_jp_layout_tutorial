@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'stateful_sample.dart';
+import 'flat_button.dart';
 
 void main() {
   debugPaintSizeEnabled = true;
-  runApp(StatefulSample());
+  runApp(FlatButtonWidget());
 }
 
 class MyApp extends StatelessWidget {
