@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_doc_jp_layout_tutorial/card_view.dart';
+
+import 'stateful_sample.dart';
 
 void main() {
   debugPaintSizeEnabled = true;
-  runApp(CardWidget());
+  runApp(StatefulSample());
 }
 
 class MyApp extends StatelessWidget {
