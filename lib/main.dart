@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'switch_button.dart';
+import 'date_picker.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(SwitchWidget());
+  runApp(DatePickerWidget());
 }
 
 class MyApp extends StatelessWidget {
