@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'date_picker.dart';
+import 'bottom_navigation_bar.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(DatePickerWidget());
+  runApp(BottomNavigationBarWidget());
 }
 
 class MyApp extends StatelessWidget {
