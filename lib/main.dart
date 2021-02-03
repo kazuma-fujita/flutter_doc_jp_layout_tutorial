@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_doc_jp_layout_tutorial/checkbox.dart';
+
+import 'radio_button.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(CheckboxWidget());
+  runApp(RadioWidget());
 }
 
 class MyApp extends StatelessWidget {
