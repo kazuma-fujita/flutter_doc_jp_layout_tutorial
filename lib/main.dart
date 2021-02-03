@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'radio_button.dart';
+import 'switch_button.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(RadioWidget());
+  runApp(SwitchWidget());
 }
 
 class MyApp extends StatelessWidget {

@@ -34,6 +34,13 @@ class _ChangeFormState extends State<ChangeForm> {
       padding: const EdgeInsets.all(10),
       child: Column(
         children: [
+          Center(
+            child: new Icon(
+              Icons.thumb_up,
+              color: _active ? Colors.orange[700] : Colors.grey[500],
+              size: 100,
+            ),
+          ),
           new Switch(
             value: _active,
             activeColor: Colors.orange,
