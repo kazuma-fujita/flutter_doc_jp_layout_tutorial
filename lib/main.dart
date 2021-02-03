@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_doc_jp_layout_tutorial/text_form_field.dart';
+import 'package:flutter_doc_jp_layout_tutorial/checkbox.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(TextFormFieldWidget());
+  runApp(CheckboxWidget());
 }
 
 class MyApp extends StatelessWidget {
