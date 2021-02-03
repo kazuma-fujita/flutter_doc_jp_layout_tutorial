@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'bottom_navigation_bar.dart';
+import 'tab_bar.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
-  runApp(BottomNavigationBarWidget());
+  runApp(TabBarWidget());
 }
 
 class MyApp extends StatelessWidget {
